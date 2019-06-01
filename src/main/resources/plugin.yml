@@ -1,0 +1,5 @@
+name: MCHardcore
+version: 1.0
+author: Aiidor
+api-version: 1.13
+main: fr.aiidor.mch.Main
