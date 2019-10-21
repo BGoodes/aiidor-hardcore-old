@@ -1,0 +1,9 @@
+#########################################################
+#            Aiidor Hardcore -  Version 2.0             #
+#                 Author : B. Goodes                    #
+#########################################################
+
+Worlds:
+  normal: "world"
+  nether: "world_nether"
+  end: "world_the_end"
