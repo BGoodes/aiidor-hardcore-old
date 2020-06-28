@@ -1,9 +1,17 @@
 #########################################################
-#            Aiidor Hardcore -  Version 2.0             #
+#       Aiidor Hardcore -  Version 2.0                  #
 #                 Author : B. Goodes                    #
 #########################################################
 
-Worlds:
-  normal: "world"
-  nether: "world_nether"
-  end: "world_the_end"
+serveur-tag: "&6[&fAiidor&6] &r"
+world: "world"
+
+Money:
+  devise: "Coins"
+  start-balance: 100 
+  
+Guilds:
+  guild-price: 500
+
+  
+  

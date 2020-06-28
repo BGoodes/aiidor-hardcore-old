@@ -1,8 +1,44 @@
-name: MCHardcore
-version: 2.0
-author: Aiidor
-api-version: 1.15
-main: fr.aiidor.mch.Main
+name: Aiidor
+version: 1.0
+api-version: 1.16
+author: B. Goodes
+main: fr.aiidor.hardcore.Plugin
 commands:
-  test: 
-    description: test
+  msg:
+    description: Permet d'envoyer des messages prives.
+  tell:
+    description: Permet d'envoyer des messages prives.
+  enchant:
+    description: Permet d'enchanter des items.
+    permission: enchant.bypass
+  vanish:
+    description: Vous allez pouvoir regarder les gens sous la douche avec cette commande !
+    permission: vanish.use
+  fly:
+    description: Comme quoi, il n'y a pas que l'amour et le redbull qui donne des ailes !
+    permission: fly.use
+  alert:
+    description: Permet de publier une message \"important\" !
+    permission: alert.use
+  broadcast:
+    description: Permet de publier une message \"important\" !
+    permission: alert.use
+  title:
+    description: Permet d'envoyer une popup aux joueurs.
+    permission: alert.use
+  invsee:
+    description: Permet d'ouvrir l'inventaire d'un joueur.
+    permission: invsee.use
+  money:
+    description: Permet de voir son argent.
+  pay:
+    description: Permet d'effectuer des paiements.
+  econ:
+    description: Permet aux admins de gerer la money.
+    permission: econ.control
+  baltop:
+    description: Permet de voir qui sont les joueurs les plus riches.
+  guild:
+    description: Commande des guildes.
+  g:
+    description: Commande des guildes.

@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "fr.aiidor"
-version = "1.5.0"
+version = "2.0.0"
 
 val targetJavaVersion = JavaVersion.VERSION_1_8
 java {
@@ -24,7 +24,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.16.1-R0.1-SNAPSHOT")
+    compileOnly("com.googlecode.json-simple:json-simple:1.1.1")
 }
 
 tasks.withType<JavaCompile> {
